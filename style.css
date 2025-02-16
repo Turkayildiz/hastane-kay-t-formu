@@ -6,20 +6,20 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #252424;
+    color: rgb(255, 0, 0);
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 nav {
-    background-color: #444;
+    background-color: #cbcbcb;
     color: white;
     padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: square;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -40,9 +40,9 @@ nav ul li a {
 }
 
 .menu {
-    width: 20%;
-    background-color: #f4f4f4;
-    padding: 15px;
+    width: 15%;
+    background-color: #e8e8e8;
+    padding: 10px;
 }
 
 .menu ul {
@@ -51,13 +51,19 @@ nav ul li a {
 }
 
 .menu ul li {
-    margin: 10px 0;
+    
+    margin: 20px 0;
+}
+
+.menu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .content {
     width: 75%;
     padding: 20px;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 form {
@@ -84,8 +90,8 @@ button:hover {
 
 footer {
     text-align: center;
-    background-color: #333;
-    color: white;
+    background-color: #cbcbcb;
+    color: rgb(0, 0, 0);
     padding: 10px;
     position: fixed;
     width: 100%;
