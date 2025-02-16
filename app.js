@@ -1,5 +1,5 @@
 
-document.getElementById('kaydetBtn').addEventListener('click', function(event) {
+document.getElementById('submit').addEventListener('click', function(event) {
 
     event.preventDefault();
 
